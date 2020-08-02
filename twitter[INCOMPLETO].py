@@ -11,7 +11,7 @@ inputLogin = driver.find_element_by_name("session[username_or_email]")
 inputLogin.send_keys("Edson2021_")
 
 inputPass = driver.find_element_by_name("session[password]")
-inputPass.send_keys("MINHASENHACRETA123123")
+inputPass.send_keys("Pass")
 inputPass.submit()
 
 time.sleep(3)
@@ -40,7 +40,6 @@ while(i < x):
     driver.refresh()
     time.sleep(2)
 
-print("Acabou porra!")
-time.sleep(10)
+print("Acabou!")
 
 driver.close()
