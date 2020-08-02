@@ -11,7 +11,7 @@ inputLogin = driver.find_element_by_name("session[username_or_email]")
 inputLogin.send_keys("Edson2021_")
 
 inputPass = driver.find_element_by_name("session[password]")
-inputPass.send_keys("a")
+inputPass.send_keys("Pass")
 inputPass.submit()
 
 time.sleep(3)
