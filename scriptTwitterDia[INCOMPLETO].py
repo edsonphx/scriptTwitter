@@ -31,7 +31,7 @@ while(i < x):
     driver.find_element_by_xpath("//div[@aria-label='Responder']").click()
     time.sleep(1)
     comment = driver.find_element_by_xpath("//div[@aria-label='Texto do Tweet']")
-    comment.send_keys("AGORA TEM BOT DE TWITTER TBM PORAAAAAAA")
+    comment.send_keys("Msg")
     time.sleep(0.5)
     driver.find_element_by_xpath("//div[@data-testid='tweetButton']").click()
     driver.get("https://twitter.com/search?f=live&q=(to:Edson2021_)since:2020-08-01")
